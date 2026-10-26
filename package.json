@@ -1,0 +1,28 @@
+{
+  "name": "automation-weekly-report",
+  "version": "1.0.0",
+  "description": "Rapport hebdomadaire de ventes / Weekly sales report — script Node.js sans dépendance",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-weekly-report": "src/weekly-report.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-weekly-report.git"
+  },
+  "homepage": "https://monsieurelzam.com/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "weekly-report"
+  ]
+}
